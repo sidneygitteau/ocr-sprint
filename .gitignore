@@ -1,0 +1,34 @@
+# Compiled class file
+*.class
+
+# Log files
+*.log
+
+# IntelliJ IDEA files
+.idea/
+
+# Compiled files
+target/
+
+# Dependency directories
+lib/
+
+# Eclipse files
+.classpath
+.project
+
+# Maven-specific files
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+# Gradle-specific files
+.gradle/
+build/
+
+#Other
+*.iml

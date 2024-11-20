@@ -1,0 +1,26 @@
+version: '3'
+
+services:
+  php-apache:
+    build:
+      context: ./front
+      dockerfile: ./Dockerfile
+    dns_opt:
+      - use-vc
+      - no-tld-query
+    ports:
+      - "8080:80"
+    networks:
+      - projet5
+  piece-reader:
+    build:
+      context: ./PieceReader
+      dockerfile: ./Dockerfile
+    restart: always
+    networks:
+      - projet5
+    ports:
+      - "8081:8081"
+
+networks:
+  projet5:

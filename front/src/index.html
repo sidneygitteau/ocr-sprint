@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload JPEG File</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <form class="form" action="upload.php" method="post" enctype="multipart/form-data">
+            <h1>OCR</h1>
+            <label for="file">Pièce : </label>
+            <input name="fileToUpload" id="file" type="file">
+
+            <p class="type-container">
+                <label for="type-file">Choisir le type de fichier</label>
+                <select name="typeOfFile" id="type-file">
+                    <option value="CNI">Carte d'identité</option>
+                    <option value="PERMIS_RECTO">Permis de conduire recto</option>
+                    <option value="PERMIS_VERSO">Permis de conduire verso</option>
+                    <option value="CARTE_GRISE">Carte grise</option>
+                </select>
+            </p>
+
+            <p class="validate-container">
+                <input type="submit" value="Valider" name="submit">
+            </p>
+        </form>
+    </div>
+</body>
+</html>
