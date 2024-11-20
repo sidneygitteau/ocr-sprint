@@ -13,9 +13,10 @@ Cette API permet au gestionnaire de lire des pièces justificatives telles que l
 De plus, pour les utilisateurs, il leur suffira de poster sur le site ou l'application de leur assureur une photo des pièces justificatives.
 
 ## Lancement de l'application
+*Nécessite Docker
 * A la racine du projet lancer la commande :
 `docker compose up -d`
 * Démarrer un navigateur à l'adresse `http://localhost:8080/`
 
-Il faut bien evidement avoir insaller docker sur son PC
+
 
