@@ -1,14 +1,14 @@
 # Piece Reader
 
-## Problématique
-La rédaction d'un constat peut être parfois longue et fastidieuse, c'est pourquoi nous avons décidé de mettre en place un service afin de le faire à votre place.
+Projet réalisé par groupe dans le cadre de la M2 MIAGE à l'université d'Orléans. 
+Dans un temps reduit, l'objectif était de créer une innovation dans le monde de l'assurance. 
+Nous avons décidé de développer une application de reconnaissance d'image permettant d'extraire des informations du futur adhérent à partir d'un permis ou d'une carte grise. 
 
 
-## Solution
-Fini les prises de tête lors du remplissage de vos constats automobile, fini les saisies manuelles ! Piece Reader est là pour vous, cette API facilite la vie des utilisateurs et des gestionnaires.
+
 
 ## Utilisation
-Cette API permet au gestionnaire de lire des pièces justificatives telles que les permis de conduire ou les cartes grises des véhicules et de générer, au format JSON, toutes les données requises pour la création d'un constat lors d'un accident automobile ou bien pour remplir automatiquement l'espace personnel du client.
+Cette API permet au gestionnaire de lire des pièces justificatives telles que les permis de conduire ou les cartes grises des véhicules et de générer, au format JSON, toutes les données requises pour la création d'une souscription d'un contrat d'assurance automobile.
 
 De plus, pour les utilisateurs, il leur suffira de poster sur le site ou l'application de leur assureur une photo des pièces justificatives.
 
